@@ -1,5 +1,9 @@
 package com.zainulrifqi.tugasutsgenap2022akbif210119082.ui.slideshow;
 
+//  NIM     : 10119082
+//  Nama    : Zainul Rifqi Muwaffaq
+//  Kelas   : IF2
+
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;

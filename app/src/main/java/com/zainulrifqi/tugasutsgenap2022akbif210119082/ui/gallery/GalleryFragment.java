@@ -1,5 +1,9 @@
 package com.zainulrifqi.tugasutsgenap2022akbif210119082.ui.gallery;
 
+//  NIM     : 10119082
+//  Nama    : Zainul Rifqi Muwaffaq
+//  Kelas   : IF2
+
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
