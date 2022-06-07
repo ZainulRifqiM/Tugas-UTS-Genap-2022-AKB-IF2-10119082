@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tugas UTS Genap 2022 AKB IF2 10119082</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Small Note (Smate)</string>
+    <string name="nav_header_subtitle">Developed by Zainul Rifqi M</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Profil Mahasiswa</string>
+    <string name="menu_gallery">Catatan Harian</string>
+    <string name="menu_slideshow">Informasi Aplikasi</string>
+
+    <string name="profile_nama">Zainul Rifqi Muwaffaq</string>
+    <string name="nim">10119082</string>
+    <string name="kelas">AKB IF2</string>
+    <string name="email">zainul.10119082@mahasiswa.unikom.ac.id</string>
+
+    <string name="judul1">Small Note (Smate)</string>
+    <string name="judul2">Universitas Komputer Indonesia</string>
+
+    <string name="desk_1">Aplikasi untuk membuat catatan kecil</string>
+    <string name="desk_2">Aplikasi untuk memenuhi tugas UTS AKB IF2</string>
+    <string name="isi_catatan">Isi Catatan</string>
+    <string name="nomor">Nomor</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="judul">Judul</string>
+    <string name="kategori">Kategori</string>
+    <string name="kembali">Kembali</string>
+    <string name="simpan">Simpan</string>
+</resources>
