@@ -8,6 +8,8 @@
     android:padding="10dp"
     tools:context=".ui.gallery.GalleryFragment">
 
+
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"

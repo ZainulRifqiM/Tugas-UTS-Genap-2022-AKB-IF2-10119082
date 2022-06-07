@@ -71,8 +71,8 @@ public class SlideshowFragment extends Fragment {
 
         // list img
         int[] list_img = {
-            R.drawable.notes_icon,
-            R.drawable.unikom
+                R.drawable.notes_icon,
+                R.drawable.unikom
         };
 
         // list judul
@@ -86,7 +86,6 @@ public class SlideshowFragment extends Fragment {
                 R.string.desk_1,
                 R.string.desk_2
         };
-
 
 
         @Override
@@ -103,7 +102,7 @@ public class SlideshowFragment extends Fragment {
         @Override
         public Object instantiateItem(@NonNull ViewGroup container, int position) {
             inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View view = inflater.inflate(R.layout.item_layout,container,false);
+            View view = inflater.inflate(R.layout.item_layout, container, false);
             LinearLayout linearLayout = view.findViewById(R.id.item_layout);
             ImageView imageView = view.findViewById(R.id.img);
             TextView judul = view.findViewById(R.id.judul);
@@ -118,7 +117,7 @@ public class SlideshowFragment extends Fragment {
 
         @Override
         public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
-            container.removeView((LinearLayout)object);
+            container.removeView((LinearLayout) object);
         }
     }
 }

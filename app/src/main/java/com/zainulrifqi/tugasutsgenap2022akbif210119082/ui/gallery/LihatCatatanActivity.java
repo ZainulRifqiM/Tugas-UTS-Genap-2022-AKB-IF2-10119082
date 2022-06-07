@@ -22,7 +22,7 @@ public class LihatCatatanActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lihat_catatan);
         dbHelper = new DataHelper(this);
-        text1 = (TextView) findViewById(R.id.textView1);
+//        text1 = (TextView) findViewById(R.id.textView1);
         text2 = (TextView) findViewById(R.id.textView2);
         text3 = (TextView) findViewById(R.id.textView3);
         text4 = (TextView) findViewById(R.id.textView4);
@@ -34,7 +34,7 @@ public class LihatCatatanActivity extends AppCompatActivity {
         if (cursor.getCount()>0)
         {
             cursor.moveToPosition(0);
-            text1.setText(cursor.getString(0).toString());
+//            text1.setText(cursor.getString(0).toString());
             text2.setText(cursor.getString(1).toString());
             text3.setText(cursor.getString(2).toString());
             text4.setText(cursor.getString(3).toString());

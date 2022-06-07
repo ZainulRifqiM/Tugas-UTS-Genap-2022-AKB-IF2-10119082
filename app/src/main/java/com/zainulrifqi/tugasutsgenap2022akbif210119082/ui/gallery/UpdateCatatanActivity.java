@@ -47,10 +47,10 @@ public class UpdateCatatanActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                // TODO Auto-generated method stub
+
                 SQLiteDatabase db = dbHelper.getWritableDatabase();
-                db.execSQL("update biodata set judul='"+
-                        text2.getText().toString() +"', tanggal='" +
+                db.execSQL("update catatan set tanggal='"+
+                        text2.getText().toString() +"', judul='" +
                         text3.getText().toString()+"', kategori='"+
                         text4.getText().toString() +"', isi='" +
                         text5.getText().toString() + "' where no='" +

@@ -91,12 +91,12 @@ public class GalleryFragment extends Fragment {
                         switch (item) {
                             case 0:
                                 Intent i = new Intent(requireContext(), LihatCatatanActivity.class);
-                                i.putExtra("nama", selection);
+                                i.putExtra("judul", selection);
                                 startActivity(i);
                                 break;
                             case 1:
                                 Intent in = new Intent(requireContext(), UpdateCatatanActivity.class);
-                                in.putExtra("nama", selection);
+                                in.putExtra("judul", selection);
                                 startActivity(in);
                                 break;
                             case 2:
