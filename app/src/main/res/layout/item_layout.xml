@@ -28,6 +28,7 @@
         android:id="@+id/deskripsi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:textSize="@dimen/text_size"/>
 
 </LinearLayout>

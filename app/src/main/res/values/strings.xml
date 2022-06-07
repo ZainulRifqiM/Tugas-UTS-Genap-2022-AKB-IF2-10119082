@@ -17,10 +17,12 @@
     <string name="email">zainul.10119082@mahasiswa.unikom.ac.id</string>
 
     <string name="judul1">Small Note (Smate)</string>
-    <string name="judul2">Universitas Komputer Indonesia</string>
+    <string name="judul2">Maksud dan Tujuan Aplikasi</string>
+    <string name="judul3">Informasi Aplikasi</string>
 
     <string name="desk_1">Aplikasi untuk membuat catatan kecil</string>
-    <string name="desk_2">Aplikasi untuk memenuhi tugas UTS AKB IF2</string>
+    <string name="desk_2">Aplikasi ini berjutuan untuk memenuhi tugas UTS AKB IF2</string>
+    <string name="desk_3">Dalam Aplikasi ini tedapat sebuah Splash Screen yang akan tampil saat aplikasi dijalankan, lalu terdapat navigation drawer yang di dalamnya terdapat 3 buah menu, yang pertama menu untuk profil mahasiswa, kedua fitur membuat catatan kecil, ketiga infromasi tentang aplikasi</string>
     <string name="isi_catatan">Isi Catatan</string>
     <string name="nomor">Nomor</string>
     <string name="tanggal">Tanggal</string>

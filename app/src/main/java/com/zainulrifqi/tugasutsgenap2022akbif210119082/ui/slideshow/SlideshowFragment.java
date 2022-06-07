@@ -72,19 +72,22 @@ public class SlideshowFragment extends Fragment {
         // list img
         int[] list_img = {
                 R.drawable.notes_icon,
-                R.drawable.unikom
+                R.drawable.unikom,
+                R.drawable.notes_icon
         };
 
         // list judul
         int[] list_judul = {
                 R.string.judul1,
-                R.string.judul2
+                R.string.judul2,
+                R.string.judul3
         };
 
         //list deskripsi
         int[] list_desk = {
                 R.string.desk_1,
-                R.string.desk_2
+                R.string.desk_2,
+                R.string.desk_3
         };
 
 

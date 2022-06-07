@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
+
         android:inputType="date">
 
 
@@ -62,6 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
         android:layout_alignStart="@+id/textView3"
+
         android:inputType="text" />
 
     <TextView
@@ -93,10 +95,12 @@
     <EditText
         android:id="@+id/editText5"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="200dp"
         android:layout_below="@+id/textView5"
         android:layout_alignStart="@+id/textView5"
-        android:inputType="text" />
+        android:inputType="text"
+        android:hint="Isikan Catatan..."
+        android:textAlignment="gravity" />
 
     <Button
         android:id="@+id/button1"
